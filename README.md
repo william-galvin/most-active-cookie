@@ -28,3 +28,22 @@ Here, `cookie` is an arbitrary string and `timestamp` is in the [UTC format](htt
 The `date` parameter for the `-d` flag should be in the form yyyy-mm-dd. 
 
 The program will output to stdout the most commom cookie(s) for the specified date.
+
+For example, running 
+```
+$ most_active_cookie data/sample.csv -d 2018-12-09
+```
+Resutls in 
+```
+AtY0laUfhglK3lC7
+```
+And running 
+```
+$ most_active_cookie data/sample.csv -d 2018-12-08
+```
+gives
+```
+SAZuXPGUrfbcn5UA
+4sMM2LxV07bPJzwf
+fbcn5UAVanZf6UtG
+```
