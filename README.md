@@ -7,7 +7,7 @@ CLI for finding the most active cookies from log files
 $ git clone git@github.com:william-galvin/most-active-cookie.git
 $ cd most-active-cookie
 ```
-1. Install dependencies and CLI with pip
+2. Install dependencies and CLI with pip
 ```
 $ pip install -r requirements.txt
 $ pip install -e .
