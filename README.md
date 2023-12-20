@@ -24,6 +24,6 @@ Where `file` is a csv file in the following format:
 | ...              | ...  |
 Here, `cookie` is an arbitrary string and `timestamp` is in the [UTC format](https://en.wikipedia.org/wiki/ISO_8601).
 
-The `date` parameter for the `-d` flag should be in the form yyyy/mm/dd. 
+The `date` parameter for the `-d` flag should be in the form yyyy-mm-dd. 
 
 The program will output to stdout the most commom cookie(s) for the specified date.
