@@ -10,7 +10,8 @@ def test_parse_date():
     for year in range(2000, 2050):
         for month in range(1, 13):
             for day in range(1, 15):
-                assert parse_date(f"{year}-{month}-{day}") == Date(year, month, day)
+                assert parse_date(f"{year}-{month}-{day}") == \
+                       Date(year, month, day)
 
 
 def test_parse_datetime():
@@ -20,7 +21,7 @@ def test_parse_datetime():
             for second in range(0, 59, 10):
                 for offset in range(-23, 23):
                     delim = "+" if offset >= 0 else "-"
-                    utc = f"{year}-{month}-{day}T{hour:02d}:{minute:02d}:{second:02d}{delim}{abs(offset):02d}:00"
+                    utc = f"{year}-{month}-{day}T{hour:02d}:{minute:02d}:{second:02d}{delim}{abs(offset):02d}:00"  # noqa E510
 
                     _, time = parse_datetime(utc)
 

@@ -29,7 +29,6 @@ class Time:
             raise ValueError("Invalid time specified")
 
         if abs(self.utc_offset) / MINUTES_PER_HOUR >= HOURS_PER_DAY:
-            print(abs(self.utc_offset) / MINUTES_PER_HOUR, self.utc_offset)
             raise ValueError("Invalid UTC offset specified")
 
     def hours(self) -> int:

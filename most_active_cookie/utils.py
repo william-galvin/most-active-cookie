@@ -2,10 +2,10 @@ import argparse
 
 from typing import Tuple
 
-from most_active_cookie.date import Date
-from most_active_cookie.date import Time
-from most_active_cookie.date import SECONDS_PER_MINUTE
-from most_active_cookie.date import MINUTES_PER_HOUR
+from .date import Date
+from .date import Time
+from .date import SECONDS_PER_MINUTE
+from .date import MINUTES_PER_HOUR
 
 
 def parse_args() -> Tuple[str, str]:
