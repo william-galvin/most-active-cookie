@@ -9,8 +9,8 @@ $ cd most-active-cookie
 ```
 1. Install dependencies and CLI with pip
 ```
-pip install -r requirements.txt
-pip install -e .
+$ pip install -r requirements.txt
+$ pip install -e .
 ```
 
 ## Usage
@@ -22,6 +22,7 @@ Where `file` is a csv file in the following format:
 | -------          | --------- |
 | 4sMM2LxV07bPJzwf | 2018-12-08T21:30:00+00:00 |
 | ...              | ...  |
+
 Here, `cookie` is an arbitrary string and `timestamp` is in the [UTC format](https://en.wikipedia.org/wiki/ISO_8601).
 
 The `date` parameter for the `-d` flag should be in the form yyyy-mm-dd. 
