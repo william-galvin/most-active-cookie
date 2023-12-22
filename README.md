@@ -47,3 +47,6 @@ SAZuXPGUrfbcn5UA
 4sMM2LxV07bPJzwf
 fbcn5UAVanZf6UtG
 ```
+
+## Testing and Development
+Run unit tests with `pytest` and optionally lint with `flake8`.
